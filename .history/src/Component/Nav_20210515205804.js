@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Nav.css";
-import gram from "./movie.svg"
 function Nav() {
   const [navbarBlack, setNavbarBlack] = useState(false);
   useEffect(() => {
@@ -16,7 +15,7 @@ function Nav() {
       <div className="nav__contents">
         <img
           className="nav__logo"
-          src={gram}
+          src=""
         />
         <img
           className="nav__avatar"

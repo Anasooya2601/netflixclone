@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Nav.css";
-import gram from "./movie.svg"
+import {gram} from "movie.svg"
 function Nav() {
   const [navbarBlack, setNavbarBlack] = useState(false);
   useEffect(() => {
